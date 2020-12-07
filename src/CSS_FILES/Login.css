@@ -1,0 +1,46 @@
+.Login {
+  height: 500px;
+  width: 600px;
+  margin: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06), -6px black; */
+  min-height: 200px;
+  width: 40vw;
+  margin: 50px auto;
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Login > h3 {
+  color: rgb(78, 68, 58);
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.Form > button {
+  background-image: linear-gradient(to top left, #ff8a00, #e52e71);
+  font-weight: 700;
+  text-transform: inherit;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.Form > button:hover {
+  background-image: linear-gradient(to top left, #e52e71, #ff8a00);
+  background-color: white;
+  color: black;
+}
+.Avatar {
+  margin-bottom: 20px;
+  align-self: center;
+}

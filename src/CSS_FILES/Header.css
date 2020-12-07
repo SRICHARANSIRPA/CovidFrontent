@@ -1,0 +1,48 @@
+.Header > button {
+  background-image: linear-gradient(to top left, #ff8a00, #e52e71);
+  font-weight: 700;
+  text-transform: inherit;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.Header > button:hover {
+  background-image: linear-gradient(to top left, #e52e71, #ff8a00);
+  background-color: white;
+  color: black;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Header h1 {
+  align-self: center;
+  color: black;
+  font-style: italic;
+}
+
+.Hub {
+  font-style: normal;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: rgb(200, 212, 129);
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: rgb(93, 64, 221);
+  }
+  100% {
+    color: green;
+  }
+}

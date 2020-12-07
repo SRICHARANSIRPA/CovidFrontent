@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 91vh;
+}
+
+.home__first {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.home__bottom {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__bottom > button {
+  width: 150px;
+  color: rgb(78, 75, 75);
+  text-transform: inherit;
+  margin-top: 50px;
+  font-weight: 600;
+  background-color: rgb(245, 237, 237);
+}
+
+.home__bottom > button:hover {
+  background-color: rgb(221, 203, 203);
+  color: white;
+}
+
+.result__buttons {
+  display: flex;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result label {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.home__left {
+  margin-top: 20px;
+}
